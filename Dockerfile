@@ -4,7 +4,6 @@ WORKDIR "/home"
 
 COPY . .
 
-
 RUN mvn clean package
 
 EXPOSE 8080
