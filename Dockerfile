@@ -8,4 +8,4 @@ RUN mvn clean package
 
 EXPOSE 8080
 
-CMD [ "java", "-jar",  "/home/okd4/target/okd4-0.0.1-SNAPSHOT.jar"]
+CMD [ "java", "-jar",  "/home/target/okd4-0.0.1-SNAPSHOT.jar"]
